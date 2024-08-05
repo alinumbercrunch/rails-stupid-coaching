@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12 mb-3">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">User Question</h5>
+          <p class="card-text"><%= @user_question %></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 mb-3">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Answer</h5>
+          <p class="card-text"><%= @user_answer %></p>
+          <%= link_to "back to questions", asking_question_path %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
